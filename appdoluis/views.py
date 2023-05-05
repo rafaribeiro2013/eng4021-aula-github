@@ -58,3 +58,6 @@ def delete_task(request, task_id):
       return redirect("tasks-list")
 
     return render(request, "delete_form.html", context={"task": task})
+
+def funcao_nova():
+    printf("Mudei um bagulho aí")
